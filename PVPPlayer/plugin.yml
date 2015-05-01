@@ -8,15 +8,15 @@ commands:
  pvppon:
   permission: pvpplayer.on
   description: Turn on PVP for you.
-  usage: /pvppon
+  usage: /pvp on
  pvppoff:
   permission: pvpplayer.off
   description: Turn off PVP for you.
-  usage: /pvppoff
+  usage: /pvp off
  pvpp:
   permission: pvpplayer.check
   description: Check your PVP status.
-  usage: /pvpp
+  usage: /pvp status
 
 permissions:
  pvpplayer.on:
